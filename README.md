@@ -7,7 +7,7 @@
 
     <style>
         body {
-            text-align: center;
+            text-align: left align;
         }
 
         div {
