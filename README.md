@@ -21,7 +21,7 @@
             width: 800px;
             height: 200px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: space-around;
             transition: all 1s steps(5) 0.1s;
         }
