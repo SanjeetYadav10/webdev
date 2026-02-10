@@ -64,7 +64,7 @@
 
         div:hover {
             background-color: red;
-            color: aliceblue;
+            color: blue;
             transform: skew(30deg) translate(50px);
         }
 
