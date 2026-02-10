@@ -50,8 +50,8 @@
         }
 
         #sq {
-            height: 100px;
-            width: 100px;
+            height: 125px;
+            width: 125px;
             background-color: pink;
             margin: 25px auto;
         }
