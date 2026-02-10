@@ -1,3 +1,4 @@
 # webdev
-This ismy first git repository
+This is my first git repository
+<br>
 commit by sanjeet
