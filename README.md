@@ -56,7 +56,7 @@
             margin: 25px auto;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 400px) {
             #sq {
                 background-color: brown;
             }
