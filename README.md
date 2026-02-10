@@ -69,8 +69,8 @@
         }
 
         @keyframes colorAnimate {
-            from { background-color: red; }
-            to { background-color: blue; }
+            from { background-color: white; }
+            to { background-color: grey; }
         }
 
         .loader {
