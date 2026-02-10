@@ -54,7 +54,13 @@
             width: 125px;
             background-color: pink;
             margin: 25px auto;
+            animation: rotateSquare 3s linear infinite;
         }
+
+        #sq {
+    animation: rotateSquare 3s linear infinite;
+
+
 
         @media (max-width: 400px) {
             #sq {
