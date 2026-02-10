@@ -27,7 +27,7 @@
         }
 
         #box1 {
-            background-color: aqua;
+            background-color: blue;
             transform: rotate(30deg);
         }
 
