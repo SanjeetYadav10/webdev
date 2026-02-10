@@ -32,7 +32,7 @@
         }
 
         #box2 {
-            background-color: pink;
+            background-color: red;
         }
 
         #box3 {
