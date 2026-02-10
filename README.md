@@ -51,7 +51,7 @@
             height: 100px;
             width: 100px;
             background-color: pink;
-            margin: 20px auto;
+            margin: 25px auto;
         }
 
         @media (max-width: 600px) {
