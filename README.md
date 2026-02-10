@@ -14,7 +14,7 @@
             height: 100px;
             width: 100px;
             display: inline-block;
-            border: 2px solid black;
+            border: 3px solid black;
         }
 
         #container {
