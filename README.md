@@ -82,15 +82,19 @@
             margin: 25px auto;
             animation: spinanimate 1s steps(20) infinite;
         }
+@keyframes pulseColor {
+    0% {
+        background-color: currentColor;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
-        @keyframes spinanimate {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(360deg);
-            }
-        }
+
     </style>
 </head>
 
