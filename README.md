@@ -66,7 +66,12 @@
             background-color: red;
             color: blue;
             transform: skew(30deg) translate(50px);
+            animation-play-state: paused;
+}
+
         }
+        
+
 
         @keyframes colorAnimate {
             from { background-color: white; }
