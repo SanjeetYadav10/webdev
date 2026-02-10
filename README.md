@@ -79,7 +79,7 @@
             border-radius: 50%;
             border: 5px solid black;
             border-top: 10px solid blue;
-            margin: 30px auto;
+            margin: 25px auto;
             animation: spinanimate 1s steps(20) infinite;
         }
 
