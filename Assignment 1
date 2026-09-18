@@ -1,0 +1,37 @@
+const fs = require('fs');
+
+// 1. CREATE / WRITE
+const studentData = `Name: Sanjeet Yadav
+Roll Number: 101
+Branch: CSE
+Semester: 3
+`;
+
+fs.writeFileSync('student.txt', studentData);
+
+console.log("Student file created successfully.");
+
+
+// 2. READ
+let data = fs.readFileSync('student.txt', 'utf8');
+
+console.log("\nStudent Details:");
+console.log(data);
+
+
+// 3. UPDATE / APPEND
+const updateData = `Subject: Full Stack Development
+Marks: 85
+Attendance: 92%
+`;
+
+fs.appendFileSync('student.txt', updateData);
+
+console.log("Student information updated successfully.");
+
+
+// 4. READ AGAIN
+data = fs.readFileSync('student.txt', 'utf8');
+
+console.log("\nComplete Updated Student Information:");
+console.log(data);
